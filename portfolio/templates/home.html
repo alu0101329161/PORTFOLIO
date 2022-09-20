@@ -6,7 +6,7 @@
 
 <header class="row bg-black">
     <div class="col-md-4">
-        <img src="{% static 'portfolio/profile.jpg' %}" alt="My logo" class="img-fluid">
+        <img src="{% static 'portfolio/profile.jpeg' %}" alt="My logo" class="img-fluid">
     </div>
 
     <div class="col-md-8 my-auto">
@@ -20,7 +20,7 @@
 <div class="row my-4 text-center">
 
     <h1>My Projects</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, accusamus.</p>
+    <p>Personal project and career projects</p>
 
     {% for project in projects%}
 
@@ -38,6 +38,12 @@
             </div>
         </div>
     </div>
+
+<!--     <div class="mt-4 flex flex-col items-center py-8 font-light dark:text-white lg:py-8">
+        <div class="mt-2 flex">
+            <a href="https://github.com/alu0101329161"></a>
+        </div>
+    </div> -->
 
     {% endfor %}
     {% endblock %}
